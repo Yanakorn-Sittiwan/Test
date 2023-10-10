@@ -1,32 +1,35 @@
+:root {
+  /* fonts */
+  --font-noto: ;
+
+
+  /* font size */
+  /* desktop */
+  --font-size-dsktp_h1 : 60px;
+  --font-size-dsktp_h2 : 40px;
+
+  --font-size-dsktp_c1 : 28px;
+  --font-size-dsktp_c2 : 18px;
+
+  /* tablet */ 
+  
+  --font-size-tblt_h1 : 42px;   
+  --font-size-tblt_h2 : 30px;    
+  --font-size-tblt_h3 : 24px;  
+  
+ 
+  --font-size-tblt_c1 : 20px;    
+  --font-size-tblt_c2 : 42px;
+  /* mobile */
+
+  --font-size-mbl_h1 : 32px;
+  --font-size-mbl_h2 : 26px;
+
+  --font-size-mbl_c1 : 16px;
+  --font-size-mbl_c2 : 14px;
+}
+
 body {
-    margin: 0;
-    line-height: normal;
-  }
-  
-  :root {
-    /* fonts */
-    --font-inter: Inter;
-    --font-gt-walsheim-pro: "GT Walsheim Pro";
-  
-    /* font sizes */
-    --font-size-11xl: 30px;
-    --font-size-21xl: 40px;
-    --font-size-31xl: 50px;
-    --font-size-xl: 20px;
-    --font-size-13xl: 32px;
-    --font-size-9xl: 28px;
-  
-    /* Colors */
-    --color-white: #fff;
-    --color-steelblue: #1986cf;
-    --color-darkslategray: #333;
-    --color-darkorange-100: #f4900c;
-    --color-gainsboro-100: #d9d9d9;
-    --color-black: #000;
-    --color-gray: rgba(0, 0, 0, 0.74);
-  
-    /* border radiuses */
-    --br-61xl: 80px;
-    --br-20xl: 39px;
-  }
+  font-family: Noto Sans Thai;
+}
   
